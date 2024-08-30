@@ -51,4 +51,19 @@ The Device Management System is a RESTful API built with Spring Boot and Spring 
    API documentation will be accessible on 
    ```bash
    http://localhost:8080/swagger-ui.html
-
+5. **Run the application using Docker:**
+   Run following command to create docker image
+   ```bash
+    docker build --build-arg JAR_VERSION=0.0.1-SNAPSHOT -t devicemanager . --platform linux/amd64
+   ```
+   Run following command to start the container
+   ```bash
+    docker run -p 8080:8080 devicemanager
+   ```
+   The application will start on
+   ```bash
+   http://localhost:8080
+   ```
+   API documentation will be accessible on 
+   ```bash
+   http://localhost:8080/swagger-ui.html

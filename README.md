@@ -33,6 +33,22 @@ The Device Management System is a RESTful API built with Spring Boot and Spring 
 ### Installation
 
 1. **Clone the repository:**
-
    ```bash
+   git clone https://github.com/swetapatil1/devicemanager.git
+2. **Build the project:**
+   Using Gradle:
+   ```bash
+   ./gradlew build
+3. **Run the application:**
+   Using Gradle:
+   ```bash
+   ./gradlew bootRun
+   ```
+   The application will start on 
+   ```bash
+   http://localhost:8080
+4. **API Documentation:**
+   API documentation will be accessible on 
+   ```bash
+   http://localhost:8080/swagger-ui.html
 

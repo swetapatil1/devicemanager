@@ -29,6 +29,7 @@ The Device Management System is a RESTful API built with Spring Boot and Spring 
 - JDK 11 or higher
 - Maven or Gradle
 - IDE such as IntelliJ IDEA or Eclipse (optional)
+- Docker Desktop(To run application using docker)
 
 ### Installation
 
